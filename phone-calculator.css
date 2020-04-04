@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: unset;
+}
+
+
+
+button {
+    border-radius: 0px;
+    border: 0;
+    line-height: 3;
+    font-size: 30px;
+    background-color: #d8d9db;
+}
+
+button:last-child {
+    background-color: #df974c;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #f2f3f5;
+}
+
+button:last-child:hover {
+    background-color: #ebb983;
+}
+
+button:active {
+    background-color: #acb3bf;
+}
+
+button:last-child:active {
+    background-color: #db790f;
+}
+
+
+
+.calculator {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.output {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+}
+
+.result {
+    color: white;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0.6%;
+}
+
+.row-5 {
+    margin-bottom: 0;
+}
+
+/* Button widths */
+.clear {
+    width: 49.7%;
+}
+
+.back-space {
+    width: 24.5%;
+}
+
+.divide {
+    width: 24.5%;
+}
+
+.digit, .multiply,
+.add, .subtract {
+    width: 24.5%;
+}
+
+.zero {
+    width: 74.8%;
+}
+
+.equals {
+    width: 24.5%;
+}
+/* Button widths end */
